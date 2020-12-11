@@ -44,7 +44,7 @@ void printMsg()
 
         // print text at coordinate x,y; 
 
-        outtextxy(100,20*i,"Geeks"); 
+        outtextxy(100,20*i,"Rajan"); 
 
           
 
