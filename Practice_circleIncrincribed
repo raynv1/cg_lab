@@ -1,0 +1,31 @@
+#include <graphics.h>
+#include <conio.h>
+
+int main()
+{
+	//initilizing driver and mode 
+	//variable of graphics
+	int graphicdriver=DETECT,graphicmode;
+
+	//calling initgraph function
+	initgraph(&graphicdriver,&graphicmode,"c:\\turboc3\\bgi");
+
+	//Printing message for user
+	outtextxy(10, 10 + 10, "Program to draw a circle inside various circles in C graphics");
+
+	//creating circle inside circle
+	setcolor(RED);
+	circle(200,200,100);
+
+	setcolor(BLUE);
+	circle(200,200,80);
+
+	setcolor(YELLOW);
+	circle(200,200,60);
+
+	setcolor(BROWN);
+	circle(200,200,40);
+
+	getch();
+	return 0;
+}
